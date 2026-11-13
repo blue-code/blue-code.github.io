@@ -1,0 +1,39 @@
+:root{--bg:#fbf8f1;--paper:#fffdf8;--ink:#2b2a27;--muted:#6f6a60;--line:#e7e0d2;--green:#3f6b45;--gold:#a8822a;--red:#b23a2e;--blue:#3d5a8a;--chip:#f3eee3}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1a17;--paper:#23221e;--ink:#ece7dc;--muted:#a59f92;--line:#3a3730;--green:#8fbf8f;--gold:#d8b45a;--red:#e07b6f;--blue:#93acd8;--chip:#2e2c27}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",system-ui,sans-serif;line-height:1.8;font-size:16px}
+a{color:var(--blue)}main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+header.site{max-width:760px;margin:0 auto;padding:14px 16px 0;font-size:13px;color:var(--muted)}header.site a{color:var(--muted);text-decoration:none}
+nav.crumbs ol{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:4px}nav.crumbs li+li:before{content:"›";margin:0 6px 0 2px}
+h1{font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;font-size:28px;line-height:1.4;margin:12px 0 4px}
+.sub{color:var(--muted);margin:0 0 20px}
+h2{font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;font-size:21px;line-height:1.5;margin:44px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:17px;margin:28px 0 8px}
+.box{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:20px 0}
+.box h2,.box h3{margin-top:0;border:0}
+.points li{margin:4px 0}
+.table-wrap{overflow-x:auto;margin:12px 0;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:15px;background:var(--paper)}
+caption{text-align:left;color:var(--muted);font-size:13px;padding:0 0 6px}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+thead th{background:var(--chip);font-weight:600;white-space:nowrap}
+td.nowrap,th.nowrap{white-space:nowrap}
+table.months th{white-space:nowrap;width:3.5em;background:var(--chip)}
+.chip{display:inline-flex;align-items:baseline;gap:2px;margin:2px 6px 2px 0;padding:1px 6px;border-radius:8px;background:var(--chip);white-space:nowrap}
+.chip small{color:var(--muted);font-size:11px;margin-right:2px}
+.s{font-style:normal;font-size:11px;padding:0 4px;border-radius:5px;margin-left:2px;color:#fff}
+.tag{display:inline-block;font-size:12px;line-height:1.6;padding:0 7px;margin:1px 4px 1px 0;border-radius:6px;color:#fff;white-space:nowrap}
+.tensha{background:#a8822a}.ichiryu{background:#3f6b45}.tora{background:#8a5a2b}.mi{background:#7a4a8a}.taian{background:#3d5a8a}.fujoju{background:#8c8c8c}
+.none{color:var(--muted)}
+.legend{font-size:13px;color:var(--muted)}.legend .li{white-space:nowrap;margin-right:8px}.legend .s{margin:0 3px 0 0}
+.cta{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:18px;margin:28px 0;display:flex;gap:14px;align-items:flex-start}
+.cta img{width:64px;height:64px;border-radius:14px;flex:none}
+.cta p{margin:4px 0}.cta .t{font-weight:700}
+.btn{display:inline-block;margin-top:8px;padding:9px 16px;border-radius:999px;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:600;font-size:15px}
+.note{font-size:14px;color:var(--muted)}
+dl.terms dt{font-weight:700;margin-top:12px}dl.terms dd{margin:2px 0 0}
+.faq h3{margin-top:22px}
+.shot{display:block;margin:16px auto;max-width:300px;width:100%;border-radius:22px;border:1px solid var(--line)}
+.related li{margin:6px 0}
+footer.site{max-width:760px;margin:0 auto;padding:24px 16px 40px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+footer.site a{color:var(--muted)}
